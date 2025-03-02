@@ -9,9 +9,10 @@ interface ToolDisplayProps {
   body: string;
   tools: string[];
   image: string;
+  githubLink: string,
 }
 
-export default function ProjectCard({ title, year, subject, body, tools, image }: ToolDisplayProps) {
+export default function ProjectCard({ title, year, subject, body, tools, image, githubLink }: ToolDisplayProps) {
   return (
     <div className="w-full h-full">
       <TextReveal duration={500}>

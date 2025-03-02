@@ -11,7 +11,8 @@ export default function Home() {
       subject: "Web Programming II",
       body: "A social media website for Virtual YouTuber fans to connect, share content, and engage with others who share their interests.",
       tools: ["React", "Javascript", "Tailwind CSS", "MongoDB", "Supabase", "Figma"],
-      image: "image.png"
+      image: "image.png",
+      githubLink: "",
     },
     {
       title: "BitCat",
@@ -19,7 +20,8 @@ export default function Home() {
       subject: "Object Oriented Programming",
       body: "A web application that connects those looking to find homes for stray cats with potential adopters. Users can post details about cats in need of adoption, and interested adopters can reach out directly to express their interest.",
       tools: ["React", "Javascript", "Tailwind CSS", "MySQL", "Firebase", "Figma"],
-      image: "image.png"
+      image: "image.png",
+      githubLink: "",
     },
     {
       title: "WeAre",
@@ -27,7 +29,8 @@ export default function Home() {
       subject: "Capstone Project",
       body: "A web application social media platform for MBTI enthusiasts to connect with others who have similar interests. It features an LSVM-based classification system that analyzes English text from social media posts to identify users' MBTI personality types.",
       tools: ["React", "Javascript", "Tailwind CSS", "Node.js", "Python", "Flask", "MongoDB", "Figma"],
-      image: "image.png"
+      image: "image.png",
+      githubLink: "",
     }
   ];
 
@@ -72,6 +75,7 @@ export default function Home() {
       <div className="fixed top-0 left-0 w-full h-full bg-gradient-to-tl from-[rgba(5,5,23,0.43)] to-[rgba(31,33,141,0.43)] -z-10"></div>
       {/* Nav */}
       <Navbar homeRef={homeRef} aboutRef={aboutRef} projectRef={projectRef} contactRef={contactRef} />
+      
       {/* Body */}
       <div className="relative w-full h-full flex flex-col overflow-y-hidden">
         {/* Home */}
